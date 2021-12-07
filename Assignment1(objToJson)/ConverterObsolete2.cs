@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Assignment1_objToJson_
 {
-    public class ConverterNew
+    public class ConverterObsolete2
     {
         private static string returnString = string.Empty;
         public static string JsonConverter<T>(T obj)
@@ -44,7 +44,7 @@ namespace Assignment1_objToJson_
                                 }
                                 else
                                 {
-                                    x = $"  {JsonConverter(property.GetValue(obj))} ,\n";
+                                    x = $" { property.Name} : {JsonConverter(property.GetValue(obj))} ,\n";
                                         //returnString = string.Concat(returnString, $" { property.Name} : {JsonConverter(property.GetValue(obj))} ,\n");
                                 }
                             }

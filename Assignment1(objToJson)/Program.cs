@@ -10,19 +10,20 @@ namespace Assignment1_objToJson_
             var course = new Course();
             course.Title = "Asp.net";
             course.Fees = 30000;
-            //course.Topics = new List<Topic>() { new Topic (){ Description="test"} };
+            course.Topics = new List<Topic>() { new Topic() { Description = "test" } };
 
             var person = new Person()
             {
                 Id = 1,
                 Name = "Shifa",
-                //Marks = new List<int> { 1, 2, 4, 5, 6 },
+                Address = new Address() { City = "Dhaka", Country = "Bangladesh", Street = "17/A" },
+                //Marks = new List<double> { 35.5, 30, 10 },
+                Fees =30000
             };
-            //var json = ConverterNew.JsonConverter<Person>(person);
-            var json = ConverterNew.JsonConverter<Course>(course);
+            //var json = Converter.JsonConverter<Person>(person);
+            var json = Converter.JsonConverter<Course>(course);
 
-            //var json = JsonFormatter<Course>(course);
-            //var json = Converter.JsonFormatter<Person>(person);
+           
 
         }
 
@@ -31,7 +32,9 @@ namespace Assignment1_objToJson_
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<int> Marks { get; set; }
+        public Address  Address { get; set; }
+        public List<double> Marks { get; set;}
+        public double Fees { get; set; }
 
     }
 
