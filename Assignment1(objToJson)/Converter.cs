@@ -12,11 +12,12 @@ namespace Assignment1_objToJson_
     {
         public static string JsonConverter<T>(T obj)
         {
-            StringBuilder stringBuilder = new StringBuilder();
+            StringBuilder result = new StringBuilder();
+
             bool isArray = typeof(IEnumerable).IsAssignableFrom(obj?.GetType()) ? true : false;
             if (!isArray)
             {
-                stringBuilder.Append("{\n");
+                result.Append("{\n");
                 PropertyInfo [] properties =obj?.GetType().GetProperties();
                 foreach (PropertyInfo property in properties)
                 {
@@ -24,41 +25,41 @@ namespace Assignment1_objToJson_
                         if (property.PropertyType.IsPrimitive || property.PropertyType == typeof(string))
                         {
                             var value = property.PropertyType == typeof(string) ? $"\"{property.GetValue(obj)}\"" : $"{property.GetValue(obj)}";
-                            stringBuilder.Append($" \"{property.Name.ToLower()}\" : {value},\n");
+                            result.Append($" \"{property.Name.ToLower()}\" : {value},\n");
                         }
                         else
                         {
-                            stringBuilder.Append($" \"{property.Name.ToLower()}\" : {JsonConverter(property.GetValue(obj))},\n");
+                            result.Append($" \"{property.Name.ToLower()}\" : {JsonConverter(property.GetValue(obj))},\n");
                         }
                     }
                     else
                     {
                         var emptyValue =(typeof(IEnumerable).IsAssignableFrom(property.PropertyType)) ? "[]" : "{}";
-                        stringBuilder.Append($" \"{property.Name.ToLower()}\" : {emptyValue},\n");
+                        result.Append($" \"{property.Name.ToLower()}\" : {emptyValue},\n");
                     }                    
                 }
-                stringBuilder.Remove(stringBuilder.Length - 2, 1);
-                stringBuilder.Append("}");
+                result.Remove(result.Length - 2, 1);
+                result.Append("}");
             }
             else
             {
 
-                stringBuilder.Append("[");
+                result.Append("[");
                 foreach (object? i in (IEnumerable)obj)
                 {
                     if (i.GetType().IsPrimitive || i.GetType() == typeof(string))
                         //returnString = string.Concat(returnString, $"{i},", "\n");
-                        stringBuilder.Append($" {i},\n");
+                        result.Append($" {i},\n");
 
                     else
                         //returnString = string.Concat(returnString, $"{ JsonConverter(i)},", "\n");
-                        stringBuilder.Append($" {JsonConverter(i)},\n");
+                        result.Append($" {JsonConverter(i)},\n");
                 }
-                stringBuilder.Remove(stringBuilder.Length - 2, 1);
-                stringBuilder.Append("]");
+                result.Remove(result.Length - 2, 1);
+                result.Append("]");
 
             }
-            return stringBuilder.ToString();
+            return result.ToString();
         }
     }
 }
