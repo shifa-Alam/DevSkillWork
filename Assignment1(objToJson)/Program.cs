@@ -21,9 +21,11 @@ namespace Assignment1_objToJson_
                 Fees =30000
             };
             //var json = Converter.JsonConverter<Person>(person);
+            //List<int> abc = new List<int>() { 12, 12, 13 };
             var json = Converter.JsonConverter<Course>(course);
+            //var json = Converter.JsonConverter<List<int>>(abc);
 
-           
+
 
         }
 

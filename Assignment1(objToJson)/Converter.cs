@@ -43,17 +43,11 @@ namespace Assignment1_objToJson_
             }
             else
             {
+                result.Append("[\n");
 
-                result.Append("[");
                 foreach (object? i in (IEnumerable)obj)
                 {
-                    if (i.GetType().IsPrimitive || i.GetType() == typeof(string))
-                        //returnString = string.Concat(returnString, $"{i},", "\n");
-                        result.Append($" {i},\n");
-
-                    else
-                        //returnString = string.Concat(returnString, $"{ JsonConverter(i)},", "\n");
-                        result.Append($" {JsonConverter(i)},\n");
+                    _ = (i.GetType().IsPrimitive || i.GetType() == typeof(string)) ? result.Append($" {i},\n") : result.Append($" {JsonConverter(i)},\n"); 
                 }
                 result.Remove(result.Length - 2, 1);
                 result.Append("]");
