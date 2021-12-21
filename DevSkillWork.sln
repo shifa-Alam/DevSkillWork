@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_obj_to_Json", "Assignment1(objToJson)\Assignment1_obj_to_Json.csproj", "{FA9445EF-F209-4596-914D-2F7CFE6351CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment2CodeForceProblemSolving", "Assignment2CodeForceProblemSolving\Assignment2CodeForceProblemSolving.csproj", "{9A1D59A8-9625-47C7-93EA-D557ACB9E518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem71A", "Problem71A\Problem71A.csproj", "{169D22C2-1B42-475A-B70D-B300C5A6FFCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA9445EF-F209-4596-914D-2F7CFE6351CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA9445EF-F209-4596-914D-2F7CFE6351CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA9445EF-F209-4596-914D-2F7CFE6351CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA9445EF-F209-4596-914D-2F7CFE6351CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1D59A8-9625-47C7-93EA-D557ACB9E518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1D59A8-9625-47C7-93EA-D557ACB9E518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1D59A8-9625-47C7-93EA-D557ACB9E518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1D59A8-9625-47C7-93EA-D557ACB9E518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169D22C2-1B42-475A-B70D-B300C5A6FFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169D22C2-1B42-475A-B70D-B300C5A6FFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169D22C2-1B42-475A-B70D-B300C5A6FFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169D22C2-1B42-475A-B70D-B300C5A6FFCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
