@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8ZzRcP4x7/GQRRRkSXAd756+VX04JrlgfhYVNB78QQ3Xcqd0C5oVv6iU40oHqrM1G8hYdML9C19uqIzewuY56A==",
+  "dgSpecHash": "vxq8W+4y0qxoJNT/YCTjyFmp1gS8jKLfgnIZHL8ZDtrBQ4aA1Jlir1FIJKEds+5TaXZmnWBWiAMxLDlle2f4AA==",
   "success": true,
   "projectFilePath": "D:\\dotNetProject\\DevSkillWork\\BookStore\\BookStore.Web\\BookStore.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shifa\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\shifa\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

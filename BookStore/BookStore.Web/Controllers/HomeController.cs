@@ -7,10 +7,12 @@ namespace BookStore.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ITest _test;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ITest test)
         {
             _logger = logger;
+            _test = test;
         }
 
         public IActionResult Index()
