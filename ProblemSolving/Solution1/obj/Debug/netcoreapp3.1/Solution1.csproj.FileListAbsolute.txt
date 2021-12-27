@@ -1,0 +1,14 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\bin\Debug\netcoreapp3.1\Solution1.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\bin\Debug\netcoreapp3.1\Solution1.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\bin\Debug\netcoreapp3.1\Solution1.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\bin\Debug\netcoreapp3.1\Solution1.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\bin\Debug\netcoreapp3.1\Solution1.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\bin\Debug\netcoreapp3.1\Solution1.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.csproj.AssemblyReference.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution1\obj\Debug\netcoreapp3.1\Solution1.genruntimeconfig.cache
