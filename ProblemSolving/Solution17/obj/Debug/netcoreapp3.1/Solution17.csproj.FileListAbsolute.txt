@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\Solution17.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\Solution17.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\Solution17.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\Solution17.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\Solution17.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\Solution17.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\Solution17.genruntimeconfig.cache
