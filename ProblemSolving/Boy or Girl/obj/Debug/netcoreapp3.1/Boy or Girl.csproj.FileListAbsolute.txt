@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\bin\Debug\netcoreapp3.1\Boy or Girl.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\bin\Debug\netcoreapp3.1\Boy or Girl.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\bin\Debug\netcoreapp3.1\Boy or Girl.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\bin\Debug\netcoreapp3.1\Boy or Girl.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\bin\Debug\netcoreapp3.1\Boy or Girl.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\bin\Debug\netcoreapp3.1\Boy or Girl.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Boy or Girl\obj\Debug\netcoreapp3.1\Boy or Girl.genruntimeconfig.cache

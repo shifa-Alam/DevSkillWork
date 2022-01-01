@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\bin\Debug\netcoreapp3.1\Football.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\bin\Debug\netcoreapp3.1\Football.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\bin\Debug\netcoreapp3.1\Football.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\bin\Debug\netcoreapp3.1\Football.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\bin\Debug\netcoreapp3.1\Football.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\bin\Debug\netcoreapp3.1\Football.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Football\obj\Debug\netcoreapp3.1\Football.genruntimeconfig.cache

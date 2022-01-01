@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\bin\Debug\netcoreapp3.1\Stones on the Table.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\bin\Debug\netcoreapp3.1\Stones on the Table.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\bin\Debug\netcoreapp3.1\Stones on the Table.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\bin\Debug\netcoreapp3.1\Stones on the Table.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\bin\Debug\netcoreapp3.1\Stones on the Table.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\bin\Debug\netcoreapp3.1\Stones on the Table.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Stones on the Table\obj\Debug\netcoreapp3.1\Stones on the Table.genruntimeconfig.cache
