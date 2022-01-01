@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\bin\Debug\netcoreapp3.1\Soldier and Bananas.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\bin\Debug\netcoreapp3.1\Soldier and Bananas.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\bin\Debug\netcoreapp3.1\Soldier and Bananas.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\bin\Debug\netcoreapp3.1\Soldier and Bananas.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\bin\Debug\netcoreapp3.1\Soldier and Bananas.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\bin\Debug\netcoreapp3.1\Soldier and Bananas.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Soldier and Bananas\obj\Debug\netcoreapp3.1\Soldier and Bananas.genruntimeconfig.cache
