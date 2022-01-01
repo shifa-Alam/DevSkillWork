@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\bin\Debug\netcoreapp3.1\Wrong Subtraction.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\bin\Debug\netcoreapp3.1\Wrong Subtraction.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\bin\Debug\netcoreapp3.1\Wrong Subtraction.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\bin\Debug\netcoreapp3.1\Wrong Subtraction.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\bin\Debug\netcoreapp3.1\Wrong Subtraction.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\bin\Debug\netcoreapp3.1\Wrong Subtraction.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Wrong Subtraction\obj\Debug\netcoreapp3.1\Wrong Subtraction.genruntimeconfig.cache
