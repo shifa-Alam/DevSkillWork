@@ -1,0 +1,14 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\bin\Debug\netcoreapp3.1\Tram.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\bin\Debug\netcoreapp3.1\Tram.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\bin\Debug\netcoreapp3.1\Tram.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\bin\Debug\netcoreapp3.1\Tram.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\bin\Debug\netcoreapp3.1\Tram.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\bin\Debug\netcoreapp3.1\Tram.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.genruntimeconfig.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Tram\obj\Debug\netcoreapp3.1\Tram.csproj.AssemblyReference.cache

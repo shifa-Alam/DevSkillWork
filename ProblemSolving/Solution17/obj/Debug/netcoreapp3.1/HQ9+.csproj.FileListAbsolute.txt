@@ -1,0 +1,14 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\HQ9+.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\HQ9+.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\HQ9+.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\HQ9+.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\HQ9+.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\bin\Debug\netcoreapp3.1\HQ9+.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.csproj.AssemblyReference.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution17\obj\Debug\netcoreapp3.1\HQ9+.genruntimeconfig.cache

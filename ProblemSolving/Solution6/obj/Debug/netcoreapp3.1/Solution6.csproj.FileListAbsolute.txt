@@ -11,4 +11,3 @@ D:\dotNetProject\DevSkillWork\ProblemSolving\Solution6\obj\Debug\netcoreapp3.1\S
 D:\dotNetProject\DevSkillWork\ProblemSolving\Solution6\obj\Debug\netcoreapp3.1\Solution6.dll
 D:\dotNetProject\DevSkillWork\ProblemSolving\Solution6\obj\Debug\netcoreapp3.1\Solution6.pdb
 D:\dotNetProject\DevSkillWork\ProblemSolving\Solution6\obj\Debug\netcoreapp3.1\Solution6.genruntimeconfig.cache
-D:\dotNetProject\DevSkillWork\ProblemSolving\Solution6\obj\Debug\netcoreapp3.1\Solution6.csproj.AssemblyReference.cache

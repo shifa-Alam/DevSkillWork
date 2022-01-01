@@ -1,0 +1,14 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\bin\Debug\netcoreapp3.1\ChatRoom.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\bin\Debug\netcoreapp3.1\ChatRoom.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\bin\Debug\netcoreapp3.1\ChatRoom.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\bin\Debug\netcoreapp3.1\ChatRoom.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\bin\Debug\netcoreapp3.1\ChatRoom.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\bin\Debug\netcoreapp3.1\ChatRoom.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.csproj.AssemblyReference.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Solution16\obj\Debug\netcoreapp3.1\ChatRoom.genruntimeconfig.cache
