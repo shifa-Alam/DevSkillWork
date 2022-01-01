@@ -25,7 +25,27 @@
       "ProjectGuid": "d1a8328f-b0f4-43db-bc99-794f4b3a58f2",
       "DisplayName": "Solution5",
       "ColorIndex": 4
+    },
+    "585fa10a-2e17-4272-b27a-90665d1e009c": {
+      "ProjectGuid": "585fa10a-2e17-4272-b27a-90665d1e009c",
+      "DisplayName": "Solution6",
+      "ColorIndex": 5
+    },
+    "e9854f8e-4a66-44ab-93ab-5a20933d9cc0": {
+      "ProjectGuid": "e9854f8e-4a66-44ab-93ab-5a20933d9cc0",
+      "DisplayName": "HQ9+",
+      "ColorIndex": 6
+    },
+    "6b5a9722-7932-4323-b346-7c66f38cf6ab": {
+      "ProjectGuid": "6b5a9722-7932-4323-b346-7c66f38cf6ab",
+      "DisplayName": "ChatRoom",
+      "ColorIndex": 7
+    },
+    "e6102a7a-8587-49e3-a040-a5686aed98f4": {
+      "ProjectGuid": "e6102a7a-8587-49e3-a040-a5686aed98f4",
+      "DisplayName": "Tram",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 9
 }

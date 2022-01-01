@@ -10,12 +10,10 @@ namespace Solution17
 
             var inputString = Console.ReadLine();
 
-            if (inputString.Contains("H") || inputString.Contains("Q") || inputString.Contains("9"))
-            {
+            if (inputString.Contains("H") || inputString.Contains("Q") || inputString.Contains("9")){
                 Console.WriteLine("YES");
             }
-            else
-            {
+            else{
                 Console.WriteLine("NO");
             }
         }
