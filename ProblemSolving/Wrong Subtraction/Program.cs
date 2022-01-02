@@ -6,6 +6,8 @@ namespace Wrong_Subtraction
     {
         static void Main(string[] args)
         {
+            //https://codeforces.com/problemset/problem/977/A
+
             var inputParam = Console.ReadLine();
             var formaterParam = inputParam.Split(' ');
             var numberOfSubtraction = Convert.ToInt32(formaterParam[1]);

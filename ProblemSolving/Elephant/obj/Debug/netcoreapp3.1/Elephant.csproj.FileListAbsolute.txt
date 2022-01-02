@@ -1,0 +1,14 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\bin\Debug\netcoreapp3.1\Elephant.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\bin\Debug\netcoreapp3.1\Elephant.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\bin\Debug\netcoreapp3.1\Elephant.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\bin\Debug\netcoreapp3.1\Elephant.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\bin\Debug\netcoreapp3.1\Elephant.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\bin\Debug\netcoreapp3.1\Elephant.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.csproj.AssemblyReference.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Elephant\obj\Debug\netcoreapp3.1\Elephant.genruntimeconfig.cache

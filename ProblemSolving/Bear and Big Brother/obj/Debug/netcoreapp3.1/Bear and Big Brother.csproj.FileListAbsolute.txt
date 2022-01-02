@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\bin\Debug\netcoreapp3.1\Bear and Big Brother.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\bin\Debug\netcoreapp3.1\Bear and Big Brother.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\bin\Debug\netcoreapp3.1\Bear and Big Brother.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\bin\Debug\netcoreapp3.1\Bear and Big Brother.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\bin\Debug\netcoreapp3.1\Bear and Big Brother.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\bin\Debug\netcoreapp3.1\Bear and Big Brother.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Bear and Big Brother\obj\Debug\netcoreapp3.1\Bear and Big Brother.genruntimeconfig.cache

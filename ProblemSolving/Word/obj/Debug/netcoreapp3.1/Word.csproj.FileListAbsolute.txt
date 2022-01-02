@@ -1,0 +1,13 @@
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\bin\Debug\netcoreapp3.1\Word.exe
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\bin\Debug\netcoreapp3.1\Word.deps.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\bin\Debug\netcoreapp3.1\Word.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\bin\Debug\netcoreapp3.1\Word.runtimeconfig.dev.json
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\bin\Debug\netcoreapp3.1\Word.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\bin\Debug\netcoreapp3.1\Word.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.dll
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.pdb
+D:\dotNetProject\DevSkillWork\ProblemSolving\Word\obj\Debug\netcoreapp3.1\Word.genruntimeconfig.cache
