@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa9445ef-f209-4596-914d-2f7cfe6351cc": {
+      "ProjectGuid": "fa9445ef-f209-4596-914d-2f7cfe6351cc",
+      "DisplayName": "Assignment1_obj_to_Json",
+      "ColorIndex": 0
+    },
+    "91453627-b25a-44f5-a4d2-ede27fbe1d10": {
+      "ProjectGuid": "91453627-b25a-44f5-a4d2-ede27fbe1d10",
+      "DisplayName": "Web",
+      "ColorIndex": 1
+    },
+    "9a1d59a8-9625-47c7-93ea-d557acb9e518": {
+      "ProjectGuid": "9a1d59a8-9625-47c7-93ea-d557acb9e518",
+      "DisplayName": "Assignment2CodeForceProblemSolving",
+      "ColorIndex": 2
+    },
+    "169d22c2-1b42-475a-b70d-b300c5a6ffcc": {
+      "ProjectGuid": "169d22c2-1b42-475a-b70d-b300c5a6ffcc",
+      "DisplayName": "Problem71A",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
