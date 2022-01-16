@@ -1,5 +1,11 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "6711ba08-f115-4c05-b5d8-f5e6ff16f8ad": {
+      "ProjectGuid": "6711ba08-f115-4c05-b5d8-f5e6ff16f8ad",
+      "DisplayName": "FirstDemo.Web",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
 }

@@ -1,0 +1,5 @@
+﻿$myColor:yellow;
+
+@mixin MyStyle($color) {
+    color:$color;
+}

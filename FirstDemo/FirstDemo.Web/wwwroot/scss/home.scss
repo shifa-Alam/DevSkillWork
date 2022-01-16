@@ -1,0 +1,8 @@
+﻿@import "./_initial.scss";
+
+.myBtn {
+    @include MyStyle($myColor);
+}
+.myPara {
+    color: $myColor;
+}
