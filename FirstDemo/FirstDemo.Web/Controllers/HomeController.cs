@@ -7,12 +7,19 @@ namespace FirstDemo.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IConfiguration _configuration;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
         {
             _logger = logger;
+            _configuration = configuration;
         }
-
+        public IActionResult Test()
+        {
+            var model = new TestModel();
+            model.InsertData(_configuration.GetConnectionString("DefaultConnection"));
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
