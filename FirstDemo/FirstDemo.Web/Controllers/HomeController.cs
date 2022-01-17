@@ -20,6 +20,12 @@ namespace FirstDemo.Web.Controllers
             model.InsertData(_configuration.GetConnectionString("DefaultConnection"));
             return View();
         }
+        public IActionResult Test2()
+        {
+            var model = new TestModel();
+            model.GetData(_configuration.GetConnectionString("DefaultConnection"));
+            return View(model);
+        }
         public IActionResult Index()
         {
             return View();
