@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a8125065-ab1f-484b-ad4d-167094c0b1e9": {
+      "ProjectGuid": "a8125065-ab1f-484b-ad4d-167094c0b1e9",
+      "DisplayName": "ORM.Console",
+      "ColorIndex": 0
+    },
+    "7c322079-3ca1-4358-a833-b93601d60a44": {
+      "ProjectGuid": "7c322079-3ca1-4358-a833-b93601d60a44",
+      "DisplayName": "Orm.ConsoleApp",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

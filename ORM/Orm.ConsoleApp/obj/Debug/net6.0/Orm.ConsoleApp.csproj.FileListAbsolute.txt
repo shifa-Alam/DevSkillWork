@@ -1,0 +1,15 @@
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Orm.ConsoleApp.exe
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Orm.ConsoleApp.deps.json
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Orm.ConsoleApp.runtimeconfig.json
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Orm.ConsoleApp.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\ref\Orm.ConsoleApp.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Orm.ConsoleApp.pdb
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.csproj.AssemblyReference.cache
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\ref\Orm.ConsoleApp.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.pdb
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.genruntimeconfig.cache
