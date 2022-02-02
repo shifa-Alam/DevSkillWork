@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Orm.ConsoleApp.Entities
 {
-    public class Room : BaseEntity
+    public class Rooms : BaseEntity
     {
         public int HouseId { get; set; }
         public double Rent { get; set; }

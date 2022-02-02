@@ -13,3 +13,13 @@ D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp
 D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\ref\Orm.ConsoleApp.dll
 D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.pdb
 D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.genruntimeconfig.cache
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\appsetings.json
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\dotNetProject\DevSkillWork\ORM\Orm.ConsoleApp\obj\Debug\net6.0\Orm.ConsoleApp.csproj.CopyComplete

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Orm.ConsoleApp.Entities
 {
-    public class House:BaseEntity
+    public class Houses:BaseEntity
     {
-        public List<Room> Rooms { get; set; }
+        public List<Rooms> Rooms { get; set; }
 
     }
 }

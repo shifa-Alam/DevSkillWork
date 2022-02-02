@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+
+  "ConnectionStrings": {
+    "Default": "Server=DESKTOP-EA380EP\\SQLEXPRESS;Database=Assignment4;MultipleActiveResultSets=true"
+  }
+
+}
