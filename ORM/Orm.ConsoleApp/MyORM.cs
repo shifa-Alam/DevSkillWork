@@ -19,11 +19,28 @@ namespace Orm.ConsoleApp
         public MyORM(string connectionString)
         {
             _connectionString = connectionString;
-            //_connectionString = configuration.GetConnectionString("default");
+
         }
         public void Insert(T item)
         {
 
+            //var title = "PHP";
+            //var fees = 3000;
+            //var isActive = true;
+            //var regEndDate = new DateTime(2022, 1, 29);
+
+            //Dictionary<string, object> data = new Dictionary<string, object>();
+            ////data.Add("@title", title);
+            ////data.Add("@fees", fees);
+            ////data.Add("@isActive", isActive);
+            ////data.Add("@registrationEnd", regEndDate);
+
+
+            //var command = @"Insert into courses (title, fees,isactive,registrationend) 
+            //    values ( @title,@fees,@isActive,@registrationEnd)";
+
+            //var dataUtility = new DataUtility(_connectionString);
+            //dataUtility.ExecuteCommand(command, data);
         }
         public void Update(T item)
         {
