@@ -9,6 +9,6 @@ namespace Orm.ConsoleApp.Entities
     public class Houses:BaseEntity
     {
         public List<Rooms> Rooms { get; set; }
-
+        public override int Id { get ; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace Orm.ConsoleApp
 
             Rooms room = new Rooms
             {
-                //Id = 1,
+                
                 Rent=3400,
                 HouseId=1
             };

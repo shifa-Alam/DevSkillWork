@@ -10,6 +10,6 @@ namespace Orm.ConsoleApp.Entities
     {
         public int HouseId { get; set; }
         public Decimal Rent { get; set; }
-
+        public override int Id { get; set; }
     }
 }

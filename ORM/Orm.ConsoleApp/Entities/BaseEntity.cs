@@ -8,6 +8,6 @@ namespace Orm.ConsoleApp.Entities
 {
     public abstract class BaseEntity
     {
-        public int Id { get; set; }
+        public abstract int Id { get; set; }
     }
 }
