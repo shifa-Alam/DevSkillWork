@@ -8,7 +8,20 @@ namespace Orm.ConsoleApp
         {
             var con = "Server=DESKTOP-EA380EP\\SQLEXPRESS;Database=Assignment4;Trusted_Connection=true";
 
-            var orm = new MyORM<Houses>(con);
+            Rooms room = new Rooms
+            {
+                //Id = 1,
+                Rent=3400,
+                HouseId=1
+            };
+            
+
+            var orm = new MyORM<Rooms>(con);
+            orm.Delete(2);
+            var getData =orm.GetById(1);
+
+            orm.Insert(room);
+
             var result = orm.GetAll();
             foreach (var item in result)
             {

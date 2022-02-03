@@ -9,7 +9,7 @@ namespace Orm.ConsoleApp.Entities
     public class Rooms : BaseEntity
     {
         public int HouseId { get; set; }
-        public double Rent { get; set; }
+        public Decimal Rent { get; set; }
 
     }
 }

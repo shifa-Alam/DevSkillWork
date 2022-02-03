@@ -23,24 +23,32 @@ namespace Orm.ConsoleApp
         }
         public void Insert(T item)
         {
+            var type = typeof(T);
 
-            //var title = "PHP";
-            //var fees = 3000;
-            //var isActive = true;
-            //var regEndDate = new DateTime(2022, 1, 29);
+            var tableName = type.Name;
+            var props = type.GetProperties();
+            StringBuilder keys = new StringBuilder();
+            StringBuilder keyWithAnnotation = new StringBuilder();
 
-            //Dictionary<string, object> data = new Dictionary<string, object>();
-            ////data.Add("@title", title);
-            ////data.Add("@fees", fees);
-            ////data.Add("@isActive", isActive);
-            ////data.Add("@registrationEnd", regEndDate);
+            Dictionary<string, object> data = new Dictionary<string, object>();
+
+            foreach (var prop in props)
+            {
+                if (prop.Name.Equals("Id")) continue;
+                keys.Append(prop.Name + ",");
+                keyWithAnnotation.Append("@" + prop.Name + ",");
+                data.Add($"@{prop.Name}", prop.GetValue(item));
+            }
+            keys.Remove(keys.Length - 1, 1);
+            keyWithAnnotation.Remove(keyWithAnnotation.Length - 1, 1);
 
 
-            //var command = @"Insert into courses (title, fees,isactive,registrationend) 
-            //    values ( @title,@fees,@isActive,@registrationEnd)";
+            var command = @$"Insert into {tableName} ({keys}) 
+                values ( {keyWithAnnotation})";
 
-            //var dataUtility = new DataUtility(_connectionString);
-            //dataUtility.ExecuteCommand(command, data);
+            var dataUtility = new DataUtility(_connectionString);
+            dataUtility.ExecuteCommand(command, data);
+
         }
         public void Update(T item)
         {
@@ -52,12 +60,54 @@ namespace Orm.ConsoleApp
         }
         public void Delete(int id)
         {
+            var type = typeof(T);
 
+            var tableName = type.Name;
+            
+
+            Dictionary<string, object> data = new Dictionary<string, object>();
+
+            var command = @$"Delete from  {tableName} Where id={id}";
+
+            var dataUtility = new DataUtility(_connectionString);
+            dataUtility.ExecuteCommand(command, data);
         }
         public T GetById(int id)
         {
+            var type = typeof(T);
 
-            return null;
+            var tableName = type.Name;
+            var props = type.GetProperties();
+
+            Dictionary<string, object> data = new Dictionary<string, object>();
+
+            var command = @$"SELECT * FROM {tableName} where id={id};";
+
+            var dataUtility = new DataUtility(_connectionString);
+            var Dbresult = dataUtility.GetData(command, data);
+
+
+            var instance = Activator.CreateInstance(typeof(T)) as T;
+            foreach (var item in Dbresult)
+            {
+             
+                foreach (var a in item)
+                {
+
+                    var prop = props.FirstOrDefault(p => p.Name.ToLower() == a.Key.ToLower());
+                   
+                    if (prop != null)
+                    {
+                        prop.SetValue(instance, a.Value, null);
+                    }
+
+                }
+
+              
+            }
+
+            return instance;
+
         }
         public List<T> GetAll()
         {
