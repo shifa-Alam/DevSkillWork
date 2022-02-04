@@ -53,24 +53,76 @@ namespace Orm.ConsoleApp
         public void Update(T item)
         {
 
+            var type = typeof(T);
+
+            var tableName = type.Name;
+            var props = type.GetProperties();
+            Dictionary<string, object> data = new Dictionary<string, object>();
+
+            var columnUpdates = props.Where(p => p.Name != "Id").Select(p => $"{p.Name} = @{p.Name}");
+            var columns = string.Join(", ", columnUpdates);
+
+            foreach (var prop in props)
+            {
+
+                data.Add($"@{prop.Name}", prop.GetValue(item));
+            }
+
+            var sqlCommand = $"UPDATE {tableName} SET {columns} WHERE Id = @Id";
+            var dataUtility = new DataUtility(_connectionString);
+            dataUtility.ExecuteCommand(sqlCommand, data);
+
+
+
         }
         public void Delete(T item)
         {
+            var type = typeof(T);
+            var tableName = type.Name;
+            var props = type.GetProperties();
+            int id = 0;
+            foreach (var prop in props)
+            {
+                if (prop.Name == "Id")
+                    id = (int)prop.GetValue(item);
+            }
+            if (id > 0)
 
+                Delete((int)id);
+
+
+            else
+            {
+                Dictionary<string, object> data = new Dictionary<string, object>();
+
+                var columnUpdates = props.Where(p => p.Name != "Id").Select(p => $"{p.Name} = @{p.Name}");
+                var columns = string.Join(" And ", columnUpdates);
+
+                foreach (var prop in props)
+                {
+
+                    data.Add($"@{prop.Name}", prop.GetValue(item));
+                }
+
+                var sqlCommand = $"Delete from  {tableName} WHERE {columns}";
+                var dataUtility = new DataUtility(_connectionString);
+                dataUtility.ExecuteCommand(sqlCommand, data);
+
+            }
         }
         public void Delete(int id)
         {
             var type = typeof(T);
 
             var tableName = type.Name;
-            
+
 
             Dictionary<string, object> data = new Dictionary<string, object>();
 
-            var command = @$"Delete from  {tableName} Where id={id}";
+            var sqlCommand = @$"Delete from  {tableName} Where id={id}";
 
             var dataUtility = new DataUtility(_connectionString);
-            dataUtility.ExecuteCommand(command, data);
+            dataUtility.ExecuteCommand(sqlCommand, data);
         }
         public T GetById(int id)
         {
@@ -90,12 +142,12 @@ namespace Orm.ConsoleApp
             var instance = Activator.CreateInstance(typeof(T)) as T;
             foreach (var item in Dbresult)
             {
-             
+
                 foreach (var a in item)
                 {
 
                     var prop = props.FirstOrDefault(p => p.Name.ToLower() == a.Key.ToLower());
-                   
+
                     if (prop != null)
                     {
                         prop.SetValue(instance, a.Value, null);
@@ -103,7 +155,7 @@ namespace Orm.ConsoleApp
 
                 }
 
-              
+
             }
 
             return instance;
