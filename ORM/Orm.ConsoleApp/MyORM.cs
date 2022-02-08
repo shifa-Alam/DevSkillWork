@@ -202,7 +202,5 @@ namespace Orm.ConsoleApp
             return result;
 
         }
-
-
     }
 }

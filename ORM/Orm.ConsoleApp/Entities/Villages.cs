@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Orm.ConsoleApp.Entities
 {
-    public class Houses:BaseEntity
+    public class Villages : BaseEntity
     {
         public override int Id { get; set; }
         public string Name { get; set; }
-        public List<Rooms> Rooms { get; set; }
-        public int VillageId { get; set; }
-
+        public List<Houses> houses { get; set; }
+        
     }
 }

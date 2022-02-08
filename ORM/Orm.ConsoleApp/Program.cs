@@ -9,43 +9,82 @@ namespace Orm.ConsoleApp
         static void Main(string[] args)
         {
 
-            Insert();
-            //Update();
+            //Insert();
+            Update();
             //Delete();
             //DeleteById();
             //GetById();
-            GetAll();
+            //GetAll();
         }
 
         private static void Insert()
         {
-            var orm = new MyORM<Rooms>(connectionString);
-            for (int i = 1; i <= 10; i++)
+            var orm = new MyORMV2<Villages>();
+
+            var village = new Villages
             {
-                Rooms room = new Rooms { Rent = 9000+(i*1000) ,HouseId=1};
-                orm.Insert(room);
-            }
+                Id = 3,
+                Name = "KKLL",
+                houses = new List<Houses>{
+                                     new Houses {
+                                        Id = 195,
+                                        Name = "test",
+                                        VillageId=3,
+                                        Rooms = new List<Rooms> {
+                                                new Rooms {
+                                                    Id = 900,
+                                                    Rent = 900,
+                                                    HouseId = 195
+                                                }
+                                            }
+                                        }
+                            }
+            };
+
+
+            orm.Insert(village);
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Rooms room = new Rooms {Id=i, Rent = 9000+(i*1000) ,HouseId=1};
+            //    orm.Insert();
+            //}
         }
 
         private static void Update()
         {
-            Rooms room = new Rooms
+            var orm = new MyORMV2<Villages>();
+
+            var village = new Villages
             {
-                Rent = 3400,
-                HouseId = 1,
-                Id = 1,
+                Id = 3,
+                Name = "Shewrapara",
+                houses = new List<Houses>{
+                                     new Houses {
+                                        Id = 195,
+                                        Name = "Japani",
+                                        VillageId=3,
+                                        Rooms = new List<Rooms> {
+                                                new Rooms {
+                                                    Id = 900,
+                                                    Rent = 45000,
+                                                    HouseId = 195
+                                                }
+                                            }
+                                        }
+                            }
             };
-            var orm = new MyORM<Rooms>(connectionString);
-            orm.Update(room);
+
+
+            orm.Update(village);
         }
 
         private static void Delete()
         {
             Rooms room = new Rooms
             {
-                Rent = 3400,
-                HouseId = 1,
-                //Id=1,
+                //Rent = 10000,
+                //HouseId = 1,
+                Id = 40,
             };
             var orm = new MyORM<Rooms>(connectionString);
             orm.Delete(room);
