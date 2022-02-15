@@ -1,0 +1,5 @@
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.csproj.AssemblyReference.cache
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.AssemblyInfoInputs.cache
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.AssemblyInfo.cs
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.csproj.CoreCompileInputs.cache
