@@ -8,7 +8,7 @@ using TicketingSystem.Ticketing.Entities;
 
 namespace TicketingSystem.Ticketing.DbContexts
 {
-    internal class TicketingDbContext : DbContext, ITicketingDbContext
+    public class TicketingDbContext : DbContext, ITicketingDbContext
     {
         private readonly string _connectionString;
         private readonly string _assemblyName;

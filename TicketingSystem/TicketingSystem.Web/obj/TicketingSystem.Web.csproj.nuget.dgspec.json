@@ -184,9 +184,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Autofac.Extensions.DependencyInjection": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[11.0.0, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -197,10 +197,6 @@
               "version": "[6.0.2, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.2, )"
             },

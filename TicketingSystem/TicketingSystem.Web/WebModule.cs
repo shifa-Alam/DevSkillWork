@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using TicketingSystem.Web.Models;
 
 namespace TicketingSystem.Web
 {
@@ -6,15 +7,9 @@ namespace TicketingSystem.Web
     {
         protected override void Load(ContainerBuilder builder)
         {
-
-            //builder.RegisterType<CourseModel>().AsSelf();
-            //builder.RegisterType<CourseCreateModel>().AsSelf();
-            //builder.RegisterType<CourseListModel>().AsSelf();
-            //builder.RegisterType<CourseEditModel>().AsSelf();
-            //builder.RegisterType<StudentCreateModel>().AsSelf();
-            //builder.RegisterType<StudentListModel>().AsSelf();
-            //builder.RegisterType<StudentEditModel>().AsSelf();
-            //builder.RegisterType<EnrollmentCreateModel>().AsSelf();
+            builder.RegisterType<TicketPurchaseListModel>().AsSelf();
+            builder.RegisterType<TicketPurchaseModel>().AsSelf();
+            builder.RegisterType<PuchaseTicketEditModel>().AsSelf();
 
             base.Load(builder);
         }

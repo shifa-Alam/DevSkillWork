@@ -29,10 +29,10 @@ namespace TicketingSystem.Ticketing
                 .WithParameter("assemblyName", _assemblyName)
                 .InstancePerLifetimeScope();
 
-            builder.RegisterType<TicketingDbContext>().As<ITicketingDbContext>()
-                .WithParameter("connectionString", _connectionString)
-                .WithParameter("assemblyName", _assemblyName)
-                .InstancePerLifetimeScope();
+            //builder.RegisterType<TicketingDbContext>().As<ITicketingDbContext>()
+            //    .WithParameter("connectionString", _connectionString)
+            //    .WithParameter("assemblyName", _assemblyName)
+            //    .InstancePerLifetimeScope();
 
             builder.RegisterType<TicketingUnitOfWork>().As<ITicketingUnitOfWork>()
                 .InstancePerLifetimeScope();

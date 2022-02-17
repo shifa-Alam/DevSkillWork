@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4bChIicmhte5Y1rfh2665gzygj4sHhAJZpjzOeBy5d/MccVQgjtktanm0yVepC5F8MP0PRvhf0qXNX8nXlCC1w==",
+  "dgSpecHash": "2f9wdINqJHt2UOFz3emy9FMiFi6lnUIFvgh2LwJGHsfuWxuj3JjO1GK7XdETmzJg1Q1ZeGXEQUjppQFVTEyXvw==",
   "success": true,
   "projectFilePath": "D:\\dotNetProject\\DevSkillWork\\TicketingSystem\\TicketingSystem.Web\\TicketingSystem.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shifa\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\shifa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\shifa\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

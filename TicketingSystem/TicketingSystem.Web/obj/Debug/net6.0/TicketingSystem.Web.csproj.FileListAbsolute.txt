@@ -293,3 +293,4 @@ D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Web\bin\Debug\net6
 D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Web\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Web\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
