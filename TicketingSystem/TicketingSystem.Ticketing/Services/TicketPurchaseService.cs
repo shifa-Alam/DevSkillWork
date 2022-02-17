@@ -5,7 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TicketingSystem.Ticketing.BusinessObjects;
+using TicketingSystem.Ticketing.Exceptions;
 using TicketingSystem.Ticketing.UnitOfWorks;
+
+using TicketPurchaseEntity = TicketingSystem.Ticketing.Entities.TicketPurchase;
 
 namespace TicketingSystem.Ticketing.Services
 {
@@ -24,30 +27,64 @@ namespace TicketingSystem.Ticketing.Services
 
         public void Save(TicketPurchase ticketPurchase)
         {
-            throw new NotImplementedException();
+            var purchasedTicketCount = _ticketingUnitOfWork.TicketPurchaseRepo.GetCount(t => t.BusNumber == ticketPurchase.BusNumber && t.SeatNumber == ticketPurchase.SeatNumber && t.OnboardingTime == ticketPurchase.OnboardingTime);
+            if (purchasedTicketCount == 0)
+            {
+                var entity = _mapper.Map<TicketPurchaseEntity>(ticketPurchase);
+                _ticketingUnitOfWork.TicketPurchaseRepo.Add(entity);
+                _ticketingUnitOfWork.Save();
+            }
+            else throw new DuplicateException("This ticket not available");
+
+
         }
 
-        public void Update(TicketPurchase ticketPurchase)
+        public void Update(TicketPurchase obj)
         {
-            throw new NotImplementedException();
+
+            var purchasedTicketCount = _ticketingUnitOfWork.TicketPurchaseRepo.GetCount(t => t.BusNumber == obj.BusNumber && t.SeatNumber == obj.SeatNumber
+            && t.OnboardingTime == obj.OnboardingTime && t.Id != obj.Id);
+            if (purchasedTicketCount == 0)
+            {
+                var ticketPurchaseEntity = _ticketingUnitOfWork.TicketPurchaseRepo.GetById(obj.Id);
+
+                ticketPurchaseEntity = _mapper.Map(obj, ticketPurchaseEntity);
+                //_ticketingUnitOfWork.TicketPurchaseRepo.Edit(ticketPurchaseEntity);
+                _ticketingUnitOfWork.Save();
+            }
+            else throw new DuplicateException("This ticket not available");
+
         }
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            _ticketingUnitOfWork.TicketPurchaseRepo.Remove(id);
+            _ticketingUnitOfWork.Save();
         }
         public TicketPurchase GetById(int id)
         {
-            throw new NotImplementedException();
+            var existingEntity = _ticketingUnitOfWork.TicketPurchaseRepo.GetById(id);
+
+            return _mapper.Map<TicketPurchase>(existingEntity);
+
         }
 
         public (int total, int totalDisplay, IList<TicketPurchase> records) GetPurchaseTickets(int pageIndex, int pageSize, string searchText, string orderBy)
         {
-            throw new NotImplementedException();
+            var result = _ticketingUnitOfWork.TicketPurchaseRepo.GetDynamic(x => x.CustomerName.Contains(searchText),
+               orderBy, string.Empty, pageIndex, pageSize, true);
+
+          var ticketPurchases = _mapper.Map<List<TicketPurchaseEntity>, List<TicketPurchase>>(result.data.ToList());
+
+
+            return (result.total, result.totalDisplay, ticketPurchases);
         }
 
         public IList<TicketPurchase> GetPurchaseTickets()
         {
-            throw new NotImplementedException();
+            var entities = _ticketingUnitOfWork.TicketPurchaseRepo.GetAll();
+
+            return _mapper.Map<List<TicketPurchaseEntity>, List<TicketPurchase>>(entities.ToList());
+
         }
 
 

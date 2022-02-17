@@ -8,7 +8,7 @@ using TicketingSystem.Ticketing.Entities;
 
 namespace TicketingSystem.Ticketing.Repositories
 {
-    internal interface ITicketPurchaseRepository : IRepository<TicketPurchase, int>
+    public  interface ITicketPurchaseRepository : IRepository<TicketPurchase, int>
     {
     }
 }
