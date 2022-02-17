@@ -52,31 +52,84 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+
+//var app = builder.Build();
+
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseMigrationsEndPoint();
+//}
+//else
+//{
+//    app.UseExceptionHandler("/Home/Error");
+//    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+//    app.UseHsts();
+//}
+
+//app.UseHttpsRedirection();
+//app.UseStaticFiles();
+
+//app.UseRouting();
+
+//app.UseAuthentication();
+//app.UseAuthorization();
+
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapRazorPages();
+
+//app.Run();
+
+
+
+try
 {
-    app.UseMigrationsEndPoint();
+
+    var app = builder.Build();
+
+    Log.Information("Application Starting up");
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseMigrationsEndPoint();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Home/Error");
+        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+        app.UseHsts();
+    }
+
+    app.UseHttpsRedirection();
+    app.UseStaticFiles();
+
+    app.UseRouting();
+
+    app.UseAuthentication();
+    app.UseAuthorization();
+
+    app.MapControllerRoute(
+        name: "areas",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+    app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+
+    app.MapRazorPages();
+
+    app.Run();
 }
-else
+catch (Exception ex)
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+
+    Log.Fatal(ex, "Application start-up failed");
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
-
-app.Run();
+finally
+{
+    Log.CloseAndFlush();
+}

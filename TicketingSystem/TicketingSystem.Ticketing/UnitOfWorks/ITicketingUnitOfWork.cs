@@ -10,6 +10,6 @@ namespace TicketingSystem.Ticketing.UnitOfWorks
 {
     public interface ITicketingUnitOfWork : IUnitOfWork
     {
-        ITicketPurchaseRepository TicketPurchaseRepo { get; }
+        ITicketPurchaseRepository TicketPurchases { get; }
     }
 }
