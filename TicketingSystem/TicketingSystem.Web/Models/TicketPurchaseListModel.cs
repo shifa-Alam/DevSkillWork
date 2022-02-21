@@ -6,7 +6,7 @@ namespace TicketingSystem.Web.Models
 {
     public class TicketPurchaseListModel
     {
-        private  ITicketPurchaseService _ticketPurchasaeService;
+        private ITicketPurchaseService _ticketPurchasaeService;
         private ILifetimeScope _scope;
         private IMapper _mapper;
 
@@ -14,7 +14,8 @@ namespace TicketingSystem.Web.Models
         {
 
         }
-        public TicketPurchaseListModel(ITicketPurchaseService ticketPurchaseService,ILifetimeScope scope,IMapper mapper)
+        public TicketPurchaseListModel(ITicketPurchaseService ticketPurchaseService,
+            ILifetimeScope scope, IMapper mapper)
         {
             _ticketPurchasaeService = ticketPurchaseService;
             _scope = scope;
@@ -32,11 +33,11 @@ namespace TicketingSystem.Web.Models
 
         public object GetPagedPurchaseTickets(DataTablesAjaxRequestModel model)
         {
-            var data =_ticketPurchasaeService.GetPurchaseTickets(
+            var data = _ticketPurchasaeService.GetPurchaseTickets(
                 model.PageIndex,
                 model.PageSize,
                 model.SearchText,
-                model.GetSortText(new string[] { "CustomerName", "TicketPrice" }));
+                model.GetSortText(new string[] { "OnboardingTime", "BusNumber", "SeatNumber", "TicketPrice", "CustomerName" }));
 
             return new
             {
@@ -45,9 +46,12 @@ namespace TicketingSystem.Web.Models
                 data = (from record in data.records
                         select new string[]
                         {
-                                record.CustomerName,
-                                record.TicketPrice.ToString(),
-                                record.Id.ToString()
+                            record.OnboardingTime.ToShortDateString(),
+                            record.BusNumber,
+                            record.SeatNumber,
+                            record.TicketPrice.ToString(),
+                            record.CustomerName,
+                            record.Id.ToString()
                         }
                     ).ToArray()
             };
@@ -55,7 +59,7 @@ namespace TicketingSystem.Web.Models
 
         internal void DeletePurchaseTicket(int id)
         {
-           _ticketPurchasaeService.Delete(id);
+            _ticketPurchasaeService.Delete(id);
         }
 
         public void Resolve(ILifetimeScope scope)

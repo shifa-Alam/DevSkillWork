@@ -19,7 +19,7 @@ namespace TicketingSystem.Web.Models
         public string SeatNumber { get; set; }
         public int TicketPrice { get; set; }
         public string BusNumber { get; set; }
-        public DateTime OnboardingTime { get; set; }
+        public DateTime OnboardingTime { get; set; }= DateTime.Now;
 
 
         public TicketPurchaseModel()

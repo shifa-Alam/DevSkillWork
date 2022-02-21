@@ -10,12 +10,14 @@ namespace TicketingSystem.Web.Controllers
     {
         private  ILifetimeScope _scope;
         private  ILogger<TicketPurchaseController> _logger;
+        private IMapper _mapper;
       
 
-        public TicketPurchaseController(ILogger<TicketPurchaseController> logger, ILifetimeScope scope)
+        public TicketPurchaseController(ILogger<TicketPurchaseController> logger, ILifetimeScope scope,IMapper mapper)
         {
             _scope = scope;
             _logger = logger;
+            _mapper = mapper;
            
         }
 
@@ -28,7 +30,6 @@ namespace TicketingSystem.Web.Controllers
         {
             var dataTableModel = new DataTablesAjaxRequestModel(Request);
             var model = _scope.Resolve<TicketPurchaseListModel>();
-            //var model = new TicketPurchaseListModel();
             return Json(model.GetPagedPurchaseTickets(dataTableModel));
         }
 
@@ -64,7 +65,7 @@ namespace TicketingSystem.Web.Controllers
                 catch (Exception ex)
                 {
                     _logger.LogError(ex, ex.Message);
-                    TempData["ResponseMessage"] = "There was a problem in creating course.";
+                    TempData["ResponseMessage"] = "There was a problem in Purchaseing Ticket.";
                     TempData["ResponseType"] = ResponseTypes.Danger;
                 }
             }
@@ -91,7 +92,7 @@ namespace TicketingSystem.Web.Controllers
                 {
                     model.EditTicketPurchasae();
 
-                    TempData["ResponseMessage"] = "Successfuly updated course.";
+                    TempData["ResponseMessage"] = "Successfuly updated.";
                     TempData["ResponseType"] = ResponseTypes.Success;
 
                     return RedirectToAction("Index");
@@ -106,7 +107,7 @@ namespace TicketingSystem.Web.Controllers
                 catch (Exception ex)
                 {
                     _logger.LogError(ex, ex.Message);
-                    TempData["ResponseMessage"] = "There was a problem in updating course.";
+                    TempData["ResponseMessage"] = "There was a problem in purchased ticket update.";
                     TempData["ResponseType"] = ResponseTypes.Danger;
                 }
             }
@@ -122,13 +123,13 @@ namespace TicketingSystem.Web.Controllers
                 var model = _scope.Resolve<TicketPurchaseListModel>();
                 model.DeletePurchaseTicket(id);
 
-                TempData["ResponseMessage"] = "Successfuly deleted course.";
+                TempData["ResponseMessage"] = "Successfuly deleted";
                 TempData["ResponseType"] = ResponseTypes.Success;
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, ex.Message);
-                TempData["ResponseMessage"] = "There was a problem in deleteing course.";
+                TempData["ResponseMessage"] = "There was a problem in deleteing.";
                 TempData["ResponseType"] = ResponseTypes.Danger;
             }
 

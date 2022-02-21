@@ -9,3 +9,4 @@ D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\bin\Debug\net
 D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.dll
 D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\ref\TicketingSystem.Data.dll
 D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.pdb
+D:\dotNetProject\DevSkillWork\TicketingSystem\TicketingSystem.Data\obj\Debug\net6.0\TicketingSystem.Data.csproj.AssemblyReference.cache
