@@ -11,8 +11,6 @@
             for (int i = 0; i < rotationCount; i++)
             {
                 var lastItem =inputString[inputString.Length-1];
-
-                Console.WriteLine(lastItem);
                 inputString= inputString.Remove(inputString.Length - 1, 1);
                 inputString = lastItem+inputString;
                
